@@ -1,1 +1,93 @@
 
+/* ============================
+   alfaQubit Dossier — WKT12 Theme
+   ============================ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Consolas, Menlo, monospace;
+  background: #0a0a0a;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  color: #00eaff;
+}
+
+header p {
+  margin-top: 0.5rem;
+  color: #888;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #222;
+  background: #0f0f0f;
+}
+
+.nav a {
+  color: #00eaff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #222;
+}
+
+h2 {
+  color: #00eaff;
+  margin-top: 0;
+}
+
+/* Links */
+a {
+  color: #00eaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Optional: subtle glow effect */
+.glow {
+  text-shadow: 0 0 8px #00eaff;
+}
